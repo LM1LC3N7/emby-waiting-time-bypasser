@@ -5,7 +5,7 @@
 // @description  Getting rid of the popup "Discover Emby Premiere"
 // @author       Louis MILCENT
 // @match        http*://media.lmilcent.com/*
-// @downloadURL  https://github.com/flexbrane/emby-waiting-time-bypasser/releases
+// @downloadURL  https://raw.githubusercontent.com/flexbrane/emby-waiting-time-bypasser/release/waitingTimeByPasser.js
 // @supportURL   https://github.com/flexbrane/emby-waiting-time-bypasser/issues
 // @grant        none
 // ==/UserScript==
