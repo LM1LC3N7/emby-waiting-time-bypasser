@@ -13,6 +13,9 @@ Le but de ce *userscript* est d'automatiser la suppression du popup pour passer 
 3. Changer la ligne `// @match        http*://media.lmilcent.com/*` du script avec l'URL voulue
 
 
+---
+
+
 ## English
 Getting rid of the popup "Discover Emby Premiere" !
 
