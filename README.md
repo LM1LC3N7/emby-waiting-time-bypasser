@@ -18,7 +18,7 @@ Getting rid of the popup "Discover Emby Premiere" !
 
 The purpose of this userscript is to automate the removal of the popup to move on to the next video.
 
-**Installation***
+**Installation**
 1. Install[tampermonkey](https://tampermonkey.net/) as an extension to the web browser
 2. Add this script to tampermonkey (copy/paste code)
 3. Change the line `// @match        http*://media.lmilcent.com/*` of the script with the desired URL
