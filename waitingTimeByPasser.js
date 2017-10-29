@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Emby waiting time bypasser
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Getting rid of the popup "Discover Emby Premiere"
 // @author       Louis MILCENT
 // @match        http*://media.lmilcent.com/*
@@ -12,11 +12,11 @@
 
 (function () {
   'use strict';
-  
+
   // Popup buttons selectors
   let waitBtn = '.formDialogContent .dialogContentInner .formDialogFooter .continueTimeText';
   let continueBtn = '.formDialogContent .dialogContentInner .formDialogFooter .btnContinue';
-  
+
   // Only remove the popup once
   let launched = false;
 
@@ -26,8 +26,8 @@
   setInterval(function () {
     if (document.querySelectorAll(waitBtn).length) {
       console.log('Deleting the waiting button!');
-	  launched = true;
       removeWaiting();
+      launched = true;
     }
   }, checkEvery);
 
