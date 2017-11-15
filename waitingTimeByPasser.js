@@ -38,7 +38,7 @@
   //  - Click on it
   //
   function removeWaiting () {
-	if (launched) return;
+    if (launched) return;
     console.log('==================================');
     console.log('');
     console.log('');
