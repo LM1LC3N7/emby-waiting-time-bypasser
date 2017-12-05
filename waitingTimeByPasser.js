@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Emby waiting time bypasser
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Getting rid of the popup "Discover Emby Premiere"
 // @author       Louis MILCENT
 // @match        http*://media.lmilcent.com/*
